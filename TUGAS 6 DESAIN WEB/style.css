@@ -1,0 +1,48 @@
+body {
+  background-color: #F3F3E0;
+  color: #021526;
+  font-size: 18px;
+}
+
+h2 {
+  color: #2E4374;
+}
+
+header {
+  text-align: center;
+  background-color: #A6CDC6;
+  padding: 50px;
+}
+
+table {
+  text-align: left;
+}
+
+.warning {
+  color: crimson;
+  font-size: 15px;
+  text-align: left;
+}
+
+.button-basic, .button-submit, .button-report {
+  border: none;
+  padding: 15px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button-report {
+  background-color: #ffa9a9;
+}
+
+.button-submit {
+  background-color: #c6ffc6;
+  color: rgb(181, 74, 74);
+}
+
+footer {
+  background-color: #A6CDC6;
+  text-align: center;
+  padding: 50px;
+}

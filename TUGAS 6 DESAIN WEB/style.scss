@@ -1,0 +1,61 @@
+$bgcolor: #F3F3E0;
+$textcolor: #021526;
+$headerfootercolor: #A6CDC6;
+$ukheaderfooter: 50px;
+$fontsize: 18px;
+
+@mixin important-text{
+    color: crimson;
+    font-size: 15px;
+    text-align: left;
+}
+
+body{
+    background-color: $bgcolor;
+    color: $textcolor;
+    font-size: $fontsize;
+}
+
+h2{
+    $textcolor: #2E4374;
+    color: $textcolor;
+}
+
+header{
+    text-align: center;
+    background-color: $headerfootercolor;
+    padding: $ukheaderfooter;
+}
+
+table{
+    text-align: left;
+}
+
+.warning{
+    @include important-text;
+}
+
+.button-basic  {
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .button-report  {
+    @extend .button-basic;
+    background-color: #ffa9a9;
+  }
+  
+  .button-submit  {
+    @extend .button-basic;
+    background-color: #c6ffc6;
+    color: rgb(181, 74, 74);
+}
+
+footer{
+    background-color: $headerfootercolor;
+    text-align: center;
+    padding: $ukheaderfooter;
+}
