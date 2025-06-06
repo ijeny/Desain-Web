@@ -1,0 +1,66 @@
+header{
+    background-color: rgb(94, 158, 161);
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+.judul{
+    text-align: center;
+}
+
+#kotak1{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(190, 196, 207);
+    border: 1px solid;
+    transform: translate(500px,30px);
+}
+
+#kotak2{
+    width: 500px;
+    height: 150px;
+    background-color: rgb(190, 196, 207);
+    border: 1px solid;
+    transform: rotate(25deg) translate(500px,0px);
+}
+
+#kotak3{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(190, 196, 207);
+    border: 1px solid;
+    margin-top: 100px;
+    transform: scale(0.5,0.5) translate(950px,450px);
+    align-content: center;
+}
+
+#kotak4{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(190, 196, 207);
+    border: 1px solid;
+    margin-top: 100px;
+    transform: scaleX(1) scaleY(2) translate(450px,100px);
+    align-content: center;
+}
+
+#kotak5{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(190, 196, 207);
+    border: 1px solid;
+    margin-top: 100px;
+    transform: skew(20deg, 10deg) translate(450px,200px);
+    align-content: center;
+}
+
+#kotak6{
+    width: 500px;
+    height: 100px;
+    background-color: rgb(190, 196, 207);
+    border: 1px solid;
+    margin-top: 100px;
+    transform: matrix(1, -0.3, 0, 1, 0, 0) translate(450px,450px);
+    align-content: center;
+}

@@ -1,0 +1,136 @@
+header{
+    text-align:center;
+    background-color:#b3e0ff;
+    color: #293460;
+    padding:30px;
+}
+
+nav{
+    text-align:right;
+    background-color:#b3e0ff;
+}
+
+.kotak1{
+  width: 500px;
+  height: 100px;
+  background-color: #2c6073;
+  animation-name: animasi1;
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@keyframes animasi1{
+    0%   {background-color: #fa9dd5;}
+    15%  {background-color: #e995f8;}
+    25%  {background-color: #ffffaf;}
+    50%  {background-color: #bebeff;}
+    100% {background-color: #89eb89;}
+}
+
+.kotak2{
+    width: 100px;
+    height: 100px;
+    background-color: #e2b4ff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    transition: width 2s, height 2s, transform 2s;
+}  
+
+.kotak2:hover{
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+}
+
+.kotak3{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  background-color: #293460;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: animasi2;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+}
+
+@keyframes animasi2{
+    0%   {background-color: #fa9dd5; left: 0px; top: 0px;}
+    15%  {background-color: #e995f8; left: 200px; top: 0px;}
+    25%  {background-color: #ffffaf; left: 200px; top: 0px;}
+    50%  {background-color: #bebeff; left: 0px; top: 200px;}
+    100% {background-color: #89eb89; left: 0px; top: 0px;}
+}
+
+.cookies1{
+    width: 150px;
+    height: 150px;
+    background: #2a3760;
+    color: #ced8ff;
+    text-align: center;
+    transition: all 2s;
+    align-items: center;
+}
+
+.cookies1:hover{
+    width: 150px;
+    height: 200px;
+}
+
+.cookies2{
+    width: 150px;
+    height: 150px;
+    background: #2a3760;
+    color: #ced8ff;
+    text-align: center;
+    transition: all 2s;
+    transition-delay: 1s;
+    align-items: center;
+}
+
+.cookies2:hover{
+    width: 150px;
+    height: 200px;
+}
+
+.timingMove{
+    width: 100px;
+    height: 180px;
+    background-color: #b3e0ff;
+    font-weight: bold;
+    text-align: center;
+    color: #293460;
+    position: relative;
+    animation: move 7s;
+    animation-fill-mode: forwards;
+}
+
+.kotak4{
+    animation-timing-function: linear;
+}
+
+.kotak5{
+    animation-timing-function: ease;
+}
+
+.kotak6{
+    animation-timing-function: ease-in;
+}
+
+.kotak7{
+    animation-timing-function: ease-out;
+}
+
+.kotak8{
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes move{
+    from {left: 0px;}
+    to {left: 1400px;}
+}
