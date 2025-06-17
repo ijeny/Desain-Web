@@ -1,0 +1,168 @@
+.font{
+    font-family: 'poppins', sans-serif;
+}
+
+header{
+    width: auto;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: #D14D72;
+}
+
+.logo{
+    float: left;
+    text-align: center;
+}
+
+.topnav a{
+    float: right;
+    display: block;
+    color: #FEF2F4;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: dotted;
+}
+
+.topnav a:hover{
+    background-color: white;
+    color: #213448;
+}
+
+.main-konten{
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.kolomkiri{
+    flex: 3;
+    overflow: hidden;
+}
+
+.row1{
+    text-align: center;
+    color: #892440;
+}
+
+.row2{
+    text-align: center;
+    color: #892440;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.promo{
+    align-items: center;
+    width: 950px;
+    height: 350px;
+    margin: 0;
+}
+
+.row3{
+    background-color: #FEF2F4;
+    color: #892440;
+    padding-top: 5px;
+}
+
+.foto-layanan{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.layanan-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 15px;
+    flex: 1;
+}
+
+.item-layanan{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.kolomkanan{
+    flex: 1;
+    padding: 20px;
+    top: 20px;
+    background-color:  #FEF2F4;
+}
+
+.toko{
+    text-align: center;
+    align-items: center;
+}
+
+.isi-toko{
+    background-color: white;
+    color: #892440;
+    text-align: left;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+.isi-toko p{
+    font-size: small;
+}
+
+.foto-toko{
+    align-items: center;
+    width: 200px;
+    height: 200px;
+}
+
+.kolom-testi{
+    text-align: center;
+    color: #892440;
+}
+
+.testi-grid{
+    display: grid;
+    grid-template-columns: repeat(1);
+    gap: 0;
+}
+
+.testi{
+    background-color: white;
+    text-align: center;
+    color: #892440;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.foto-testi{
+    align-items: left;
+    width: 75px;
+    height: 75px;
+    display: flex;
+}
+
+.isi-testi{
+    text-align: left;
+    padding-left: 90px;
+}
+
+.rating{
+    text-align: left;
+    padding-left: 90px;
+}
+
+footer{
+    background-color: #D14D72;
+    text-align: left;
+    padding: 30px;
+    clear: both;
+}
+
+footer a{
+    color: #FEF2F4;
+}
