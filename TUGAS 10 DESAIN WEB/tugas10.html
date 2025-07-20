@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>tugas 10</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            padding-top: 80px;
+            background: linear-gradient(135deg, #1e2a61 0%, #000000 100%);
+            min-height: 100vh;
+        }
+
+        .bagian-padding {
+            padding: 60px 0;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #7a85c4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 3rem;
+            margin: 0 auto 20px;
+        }
+
+        .beranda {
+            padding: 100px 0;
+        }
+
+        .isi-beranda h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .isi-beranda p {
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- BAGIAN NAVBAR -->
+    <nav class="navbar navbar-expand-lg shadow fixed-top" style="background-color: #7a85c4;">
+        <div class="container">
+            <a class="navbar-brand text-white d-flex align-items-center fs-4 fw-bold" href="#beranda">
+                Jmori
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#beranda">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#tentang">Tentang</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#keahlian">Keahlian</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BAGIAN HEADER -->
+    <header class="text-center py-5" style="background-color: rgba(255,255,255,0.1); margin-top: 20px;">
+        <div class="container">
+            <h1 class="text-white mb-3">Selamat Datang di Portofolio Saya!</h1>
+        </div>
+    </header>
+
+    <!-- BAGIAN BERANDA -->
+    <section class="beranda" id="beranda">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center isi-beranda">
+                    <h1 class="text-white">Halo, Saya Jmori</h1>
+                    <p class="text-white">Seorang mahasiswa yang sedang belajar framework</p>
+                    <a href="#tentang" class="btn btn-primary btn-lg">Lihat Profil</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN TENTANG -->
+    <section class="tentang bagian-padding" id="tentang">
+        <div class="container-fluid">
+            <div class="text-center mb-5">
+                <h2 class="text-white">Tentang Saya</h2>
+            </div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-4 text-center">
+                        <div class="profile-img">👨‍💻</div>
+                    </div>
+                    <div class="col-md-8">
+                        <h5 class="text-white">Profil Singkat</h5>
+                        <p class="text-white">Saya Imtinan Jeny Maulidah Belvariyanto. Saya sekarang tertarik dengan
+                            dunia programming dan web
+                            development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN KEAHLIAN -->
+    <section class="keahlian section-padding" id="keahlian">
+        <div class="container-fluid">
+            <div class="text-center mb-5">
+                <h2 class="text-white">Keahlian</h2>
+            </div>
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4">
+                            <div style="font-size: 4rem;">🌐</div>
+                            <h4 class="text-white mt-3">HTML</h4>
+                            <p class="text-white mt-2">Struktur dasar website</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4">
+                            <div style="font-size: 4rem;">🎨</div>
+                            <h4 class="text-white mt-3">CSS</h4>
+                            <p class="text-white mt-2">Styling dan design</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="p-4">
+                            <div style="font-size: 4rem;">⚡</div>
+                            <h4 class="text-white mt-3">Bootstrap</h4>
+                            <p class="text-white mt-2">Framework responsive</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BAGIAN FOOTER -->
+    <footer class="text-center py-4">
+        <div class="container">
+            <p class="text-white mb-0">&copy; 2025 Jmori - Tugas 10</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.7/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
